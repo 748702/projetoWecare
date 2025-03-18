@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-style: Montserrat;
+}
+
+header {
+  margin: 44px 0 144px 76px
+}
+
+.link-header {
+  margin-right: 23px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #989D9C;
+  cursor: pointer;
+  /*aparece uma mão ao posicionar o mouse em cima*/
+}
+
+
+
+.botao-header {
+  cursor: pointer;
+  background-color: #665ae1;
+  border-radius: 20.5px;
+  width: 130px;
+  height: 41px;
+  border: none;
+  /*sem bordas*/
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+
+}
+
+.logo-image {
+  Width: 568px;
+  Height: 500px;
+  margin-left: 125px;
+  display: inline-block;
+}
+
+section {
+  display: inline-block;
+  /* permitiu que a img e caixa
+  de texto ficasse lado a lado*/
+  margin-left: 86px;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 122px;
+  color: #515151;
+
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 71px;
+  color: #515151;
+}
+
+p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  Width: 515px;
+  color: #848484;
+  margin-top: 32px;
+  margin-bottom: 65px;
+}
+
+.button-aside {
+  background: #adff00;
+  border-radius: 30px;
+  /*borda arredondada*/
+  width: 239px;
+  height: 64px;
+  border: none;
+  font-Weight: 700;
+  /*grossura da fonte*/
+  font-Size: 28px;
+  Line-height: 34.13px;
+  cursor: pointer;
+  filter: drop-shadow(0px 4px 4px 0px rgba(0, 0, 0, 0.25));
+
+}
+
+@media screen and (max-width: 740px) {
+
+  /**comando que para abaixo de 740px sera aplicado as conf. a seguir**/
+  .link-header {
+    display: none;
+  }
+
+  .botao-header {
+    display: none;
+  }
+
+  p {
+    display: none;
+  }
+
+  h1 {
+    font-size: 50px;
+    font-weight: 900px;
+    text-align: center;
+    margin-bottom: 15px;
+    display: block;
+    line-height: normal;
+
+  }
+
+  h2 {
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    margin-top: 15px;
+    line-height: normal;
+    font-weight: 500;
+  }
+
+  .logo-image {
+    Width: 354px;
+    Height: 317px;
+    display: block;
+    margin-left: 10px;
+  }
+
+
+
+}
